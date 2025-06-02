@@ -14,3 +14,11 @@ output "VPC_ID_Parent_02" {
 output "Subnet_ID_Parent_02" {
   value = module.Deploy-AWSVPC-Region-02.Subnet_ID_child
 }
+
+output "Main_RT_ID_Parent_01" {
+  value = module.Deploy-AWSVPC-Region-01.Main_RT_ID
+}
+
+output "Main_RT_ID_Parent_02" {
+  value = module.Deploy-AWSVPC-Region-02.Main_RT_ID
+}
